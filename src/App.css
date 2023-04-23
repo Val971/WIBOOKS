@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Plus+Jakarta+Sans&family=Prata&display=swap");
+
+@layer base {
+  /* html {
+    font-family: "Inter", sans-serif;
+  } */
+  body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #7a7a7a;
+    background-color: #f3f2ec;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Prata", serif;
+    color: black;
+  }
+  .logo {
+    font-family: "Cormorant Unicase", serif;
+  }
+}
